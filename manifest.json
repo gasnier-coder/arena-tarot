@@ -1,7 +1,7 @@
 {
-  "name": "Tarot",
-  "short_name": "Concours Tarot V2",
-  "start_url": "index.html",
+  "name": "ARENA TAROT C.G",
+  "short_name": "Arena Tarot",
+  "start_url": "./index.html", 
   "display": "standalone",
   "background_color": "#064e3b",
   "theme_color": "#064e3b",
