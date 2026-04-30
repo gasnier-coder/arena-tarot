@@ -331,17 +331,16 @@
         function clearAllData() { if(confirm("⚠ RESET COMPLET ?")) { rawPlayers = []; scoresData = {}; localStorage.clear(); renderInscriptions(); showSection('inscriptions'); } }
         function changeNbParties(v) { totalParties = parseInt(v); saveData(); if (currentIdx >= totalParties) currentIdx = 0; if (!document.getElementById('sec-parties').classList.contains('hidden')) renderPartie(currentIdx); }
 
-        document.addEventListener('DOMContentLoaded', renderInscriptions);
-    </script>
-	<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      // Le chemin doit être exact : ./service-worker.js
-      navigator.serviceWorker.register('./service-worker.js')
-        .then(reg => console.log('SW enregistré avec succès !', reg))
-        .catch(err => console.error('Erreur d’enregistrement du SW :', err));
-    });
-  }
+      // ... tes fonctions précédentes (clearAllData, etc.)
+    document.addEventListener('DOMContentLoaded', renderInscriptions);
+
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./service-worker.js')
+                .then(reg => console.log('SW enregistré avec succès !', reg))
+                .catch(err => console.error('Erreur d’enregistrement du SW :', err));
+        });
+    }
 </script>
 </body>
 </html>
