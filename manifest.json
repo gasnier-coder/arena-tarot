@@ -1,7 +1,7 @@
 {
-  "name": "ARENA TAROT C.G",
+  "name": "ARENA TAROT G.T",
   "short_name": "Arena Tarot",
-  "start_url": "./index.html", 
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#064e3b",
   "theme_color": "#064e3b",
@@ -18,5 +18,6 @@
       "type": "image/png",
       "purpose": "maskable any"
     }
-  ]
+  ],
+  "description": "Arena Tarot est la solution ultime pour gérer vos concours de Tarot, tout est automatisé :\n\n\nFlexibilité des données : L'import Excel ou le simple \"copier-coller\" fait gagner un temps précieux lors des inscriptions de dernière minute. (tout en gardant les inscription joueur par joueur dans le logiciel)\n\nRespect strict des règles FFT : La rotation automatique (Nord fixe, Sud +1, Est -1, Ouest -2) garantit l'équité sportive sans calcul manuel fastidieux. Choix du nombre de tours (parties)\n\nCapacité : 350 joueurs et plus sans difficulté (testé avec 372 participants). \n\nSécurité de l'événement : Le système d'alerte visuelle pour la validation des tables et la double sécurité \"Sauvegarde/Reset\" évitent les erreurs fatales de manipulation en plein tournoi.\n\nExpérience joueur : Le classement complet et automatique en direct (impression quand vous le souhaitez)\n\nInterface idéale pour projection sur écran géant qui renforce le professionnalisme de votre organisation.\n\nPossibilité d'incorporé votre logo"
 }
